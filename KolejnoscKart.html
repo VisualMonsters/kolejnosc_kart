@@ -1,0 +1,76 @@
+<html>
+    <head>
+      <script language="JavaScript" type="text/javascript" src="jquery-2.5.js"></script>
+      <link rel="stylesheet" type="text/css" href="kolejnosckart_mystyle.css" media="screen" />
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <script src="kolejnosckart_java.js" type="text/javascript"></script>
+    </head>
+<body>
+  <div class="ex1">
+
+<!--Zadanie 1 -->
+<h1>Zapamiętaj kolejność kart. <a align="right" class="pkt" id ="zadanie1_pkt" >0 pkt</a><a id="firstname">____</a><button onclick=myFunction() id="Zadanie1_button">Zacznij zadanie</button><button onclick=OdNowa() id="Zadanie1_OdNowa">Zacznij od nowa</button></h1>
+<p align="left" id="test">Gra polega na zapamiętaniu kolejności kart, karty zostaną wylosowane w ilości jaką podasz w poziomie gry.<p>Poziom gry: <input input id="ilosc_elementow" type="number" min="5" max="52" step="1" value ="5"/> </p></p>
+<ul id="Zadanie1" style="display: none;" class="tlokart_zielone">
+  <!--<p class="pogrubiony" align="left" id="Zadanie1_tablica"></p>-->
+  <div class="tlokart_zielone">
+  <p id="tabelaKart">
+
+</p>
+
+  <a id="zadanie1_timer"><a id="Dotla">____</a><a align="left" class="timer" id="timer_zad1"></a><a id="Dotla">____</a><button onclick=zadanie1_czasStop() id="Zadanie1_button">Kliknij jeśli nie chcesz czekać.</button></a>
+</div>
+</ul>
+<ul id="Zadanie1_odp" style="display: none;" class="tlokart_zielone">
+<p align="center" id="testertxt">Wybierz właściwą kartę.
+    <div class="tlokart_zielone2" id ="puszka">
+<table align="center">
+<tbody>
+<tr>
+<td  align="center" ><img id="kartaOdp_0" onclick="karta_0()" style=width:100px;height:150px;cursor:pointer;display:none;></td>
+<td  align="center" ><img id="kartaOdp_1" onclick="karta_1()" style=width:100px;height:150px;cursor:pointer;display:none;></td>
+<td  align="center" ><img id="kartaOdp_2" onclick="karta_2()" style=width:100px;height:150px;cursor:pointer;display:none;></td>
+<td  align="center" ><img id="kartaOdp_3" onclick="karta_3()" style=width:100px;height:150px;cursor:pointer;display:none;></td>
+<td  align="center" ><img id="kartaOdp_4" onclick="karta_4()" style=width:100px;height:150px;cursor:pointer;display:none;></td>
+<td  align="center" ><img id="kartaOdp_5" onclick="karta_5()" style=width:100px;height:150px;cursor:pointer;display:none;></td>
+<td  align="center" ><img id="kartaOdp_6" onclick="karta_6()" style=width:100px;height:150px;cursor:pointer;display:none;></td>
+</tr>
+</tbody>
+</table>
+</div>
+</ul>
+
+  </div>
+  <div class="ex1" id="tabelapodsumowania"  style="display: none;">
+  <table align="center">
+  <tbody>
+    <tr>
+      <td align="right"><h1>Zdobyto: <a id="firstname">____</a></h1> </td>
+      <td align="left"><h1> <a align="center" class="pkt" id ="zadanie1_pkt_1" >0 pkt</a> / <a class="pkt" id ="zadanie1_pkt_max" >0 pkt</a></h1></td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+
+   <div class="ex1" id="JakGrac"  style="display: none;">
+     <button align="center" onclick=zadan() id="Zadanie1_button">Instrukcja jak grać.</button>
+  <table align="center">
+  <tbody>
+    <tr>
+      <td align="right"><h1>Zdobyto: <a id="firstname">____</a></h1> </td>
+      <td align="left"><h1> <a align="center" class="pkt" id ="zadanie1_pkt_1" >0 pkt</a> / <a class="pkt" id ="zadanie1_pkt_max" >0 pkt</a></h1></td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+  <footer>
+	
+	</footer>
+  <div id="footer">
+      <div class="ex1">
+		<p><strong> Spis ZMP kart dostępny pod adresem:  <a href="http://szybkoczytam.cba.pl/zmp-karty/">ZMP-karty</a></strong>  </p>
+</div>
+	</div>
+ </body>
+</html>

@@ -1,0 +1,78 @@
+a.pkt {     
+text-decoration: none; 
+color: red;
+font-size: 120%;
+} 
+
+#firstname { 
+    color: white;
+}
+
+div.ex1 {
+    width: 800px;
+    margin: auto;
+   /* border: 3px solid #73AD21; */
+}
+
+a.timer {     
+text-decoration: none; 
+color: white;
+font-size: 250%;
+} 
+
+p.pogrubiony {     
+text-decoration: none; 
+color: darkblue;
+font-size: 200%;
+} 
+
+td.pogrubiony2 {     
+text-decoration: none; 
+font-size: 200%;
+} 
+.textwrapper
+{
+ /* border:1px solid #999999;*/
+  margin:5px 0;
+  padding:3px;
+}
+textarea
+{
+  width:100%;
+}
+div.tlokart_zielone {
+    background-color: rgb(80,147,148);
+   /* border: 3px solid #73AD21; */
+}
+div.tlokart_zielone2 {
+    background-color: rgb(80,147,148);
+   /* border: 3px solid #73AD21; */
+   height: 155px;
+}
+ul.tlokart_zielone {
+ margin:0;
+    padding: 0;
+}
+#Dotla { 
+    color: rgb(80,147,148);
+}
+html, body {
+		       margin:0;
+		       padding:0;
+		       height:100%;
+        }
+#container {
+		min-height:100%;
+		position:relative;
+        }
+ #footer {
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:60px;		/* Wysokość stopki */
+	/*	background:#b5fbbd;*/
+	}
+    	#middle {
+		padding:10px;
+		padding-bottom:60px;	/* Wysokość stopki */
+	}
